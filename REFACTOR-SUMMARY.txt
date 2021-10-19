@@ -1,0 +1,49 @@
+					==================== Project Logger Application - Refactor Summary ====================
+
+			SCOPE
+					- Naming conventions according to Google's JavaScript Style Guide 
+					  (https://google.github.io/styleguide/jsguide.html#naming)
+					- Best Practices for project structure and coding style, according to 
+					  (https://github.com/goldbergyoni/nodebestpractices)
+					- Incorpoarating Helmet
+					- Review of changes
+				
+				
+			IMPLEMENTATION	
+					NAMING:
+						- Adhering to naming conventions, I made changes to function and variable names 
+						  as well as variable initializations.
+						- After changing the name of the file I had imported, I had to make sure that all 
+						  occurences of the variable was changed accordingly.
+						- I made changes to variable initializations where I made use of 'var' I changed 
+						  it to 'let' or 'const'. 
+
+					BEST PRACTICES:
+						- Firstly, I formatted the document with Prittier, then 
+						- reviewed the structure and made adjustments to spacing for better legibility 
+						  since my code has documentation/comments inbetween the actual code.
+						- I then made sure that all imports were at the top of the code and that the 
+						  grouping of code alike was done.
+						- I got rid of code i used during debugging and testing-Mainly console.log statements. 
+						- I cleaned up the code and deleted unused code and declarations
+						- I ensured that my app.js and server.js files were separate and that my server's
+						  package.json file had all the dependencies and correct versions of dependencies
+						  listed.
+					
+					HELMET INTEGRATION:
+						- Firstly, I installed Helmet from the integrated terminal and then imported the 
+						  module to my server.js file using 'NodeRequire'.
+						- I then configured the DNS prefetch Control and the frameguard properties to help 
+						  control DNS prefetching and improve user privacy as well as preventing clickjacking 
+						  attacks (hidden/invisible <iframe> containing malicious code).
+				
+					REVIEW:
+						- After the rafactoring was complete I went through the code, making sure that the 
+						  all the changes were complete and that there was nothing outstanding.
+						- I made sure that all the code and variables declared are neccessary/required.
+						- I check for consistency of coding style. 
+
+					
+	
+	
+		
